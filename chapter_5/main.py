@@ -132,8 +132,13 @@ def main():
     }
 
     # Call Graph or Invoke Graph
-    output = graph.invoke(_state)
-    print(" 🤖 ", output["result"])
+    # output = graph.invoke(_state)
+    # print(" 🤖 ", output["result"])
+
+    # Stream
+    events = graph.stream(_state)
+    for event in events:
+        print(event)
 
 main()
 
