@@ -12,6 +12,7 @@ charset-normalizer==3.4.3
 click==8.2.1
 dataclasses-json==0.6.7
 distro==1.9.0
+dnspython==2.7.0
 frozenlist==1.7.0
 gitdb==4.0.12
 GitPython==3.1.45
@@ -33,14 +34,17 @@ jsonschema-specifications==2025.4.1
 langchain==0.3.27
 langchain-community==0.3.27
 langchain-core==0.3.74
-langchain-openai==0.3.30
+langchain-mongodb==0.7.0
+langchain-openai==0.3.32
 langchain-qdrant==0.2.0
 langchain-text-splitters==0.3.9
 langgraph==0.6.6
 langgraph-checkpoint==2.1.1
+langgraph-checkpoint-mongodb==0.2.0
 langgraph-prebuilt==0.6.4
 langgraph-sdk==0.2.3
 langsmith==0.4.14
+lark==1.2.2
 MarkupSafe==3.0.2
 marshmallow==3.26.1
 multidict==6.6.4
@@ -61,6 +65,7 @@ pydantic==2.11.7
 pydantic-settings==2.10.1
 pydantic_core==2.33.2
 pydeck==0.9.1
+pymongo==4.14.1
 pypdf==6.0.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
