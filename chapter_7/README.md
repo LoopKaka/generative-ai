@@ -1,4 +1,4 @@
-# 🤖 Generative AI for Developers – Chapter 6 🏆
+# 🤖 Generative AI for Developers – Chapter 7 🏆
 
 ## Documents
 
