@@ -5,6 +5,7 @@ altair==5.5.0
 annotated-types==0.7.0
 anyio==4.10.0
 attrs==25.3.0
+backoff==2.2.1
 blinker==1.9.0
 cachetools==6.1.0
 certifi==2025.8.3
@@ -14,6 +15,7 @@ dataclasses-json==0.6.7
 distro==1.9.0
 dnspython==2.7.0
 frozenlist==1.7.0
+fsspec==2024.12.0
 gitdb==4.0.12
 GitPython==3.1.45
 grpcio==1.74.0
@@ -27,6 +29,7 @@ hyperframe==6.1.0
 idna==3.10
 Jinja2==3.1.6
 jiter==0.10.0
+json_repair==0.44.1
 jsonpatch==1.33
 jsonpointer==3.0.0
 jsonschema==4.25.0
@@ -35,6 +38,7 @@ langchain==0.3.27
 langchain-community==0.3.27
 langchain-core==0.3.74
 langchain-mongodb==0.7.0
+langchain-neo4j==0.5.0
 langchain-openai==0.3.32
 langchain-qdrant==0.2.0
 langchain-text-splitters==0.3.9
@@ -47,9 +51,12 @@ langsmith==0.4.14
 lark==1.2.2
 MarkupSafe==3.0.2
 marshmallow==3.26.1
+mem0ai==0.1.118
 multidict==6.6.4
 mypy_extensions==1.1.0
 narwhals==2.0.1
+neo4j==5.28.2
+neo4j-graphrag==1.10.0
 numpy==2.3.2
 openai==1.100.2
 orjson==3.11.2
@@ -58,8 +65,9 @@ packaging==25.0
 pandas==2.3.1
 pillow==11.3.0
 portalocker==3.2.0
+posthog==6.7.6
 propcache==0.3.2
-protobuf==6.31.1
+protobuf==5.29.5
 pyarrow==21.0.0
 pydantic==2.11.7
 pydantic-settings==2.10.1
@@ -72,11 +80,13 @@ python-dotenv==1.1.1
 pytz==2025.2
 PyYAML==6.0.2
 qdrant-client==1.15.1
+rank-bm25==0.2.2
 referencing==0.36.2
 regex==2025.7.34
 requests==2.32.4
 requests-toolbelt==1.0.0
 rpds-py==0.27.0
+scipy==1.16.2
 six==1.17.0
 smmap==5.0.2
 sniffio==1.3.1
@@ -87,6 +97,7 @@ tiktoken==0.11.0
 toml==0.10.2
 tornado==6.5.2
 tqdm==4.67.1
+types-PyYAML==6.0.12.20250915
 typing-inspect==0.9.0
 typing-inspection==0.4.1
 typing_extensions==4.14.1
