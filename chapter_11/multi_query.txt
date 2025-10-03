@@ -1,0 +1,20 @@
+Multi Query
+=============
+Prompt:
+You are a helpful assistant that generates multiple different versions of a user query. 
+The goal is to cover different phrasings and synonyms so that a retrieval system 
+can find more relevant documents. 
+
+Generate 5 alternative queries that mean the same as the original question. 
+Do not answer the question, just produce alternative queries.
+
+Example:
+User query: Who is the founder of SpaceX?
+
+Query 1: Who started SpaceX?
+Query 2: Who established SpaceX?
+Query 3: SpaceX founder name?
+Query 4: Elon Musk SpaceX creation?
+Query 5: Who created SpaceX in 2002?
+
+Example 2: What are the health benefits of green tea?

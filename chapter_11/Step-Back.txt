@@ -1,0 +1,13 @@
+Step-Back Prompting:
+====================
+Prompt:
+Before answering the user’s question, first break down the problem into smaller reasoning steps. Think carefully about the underlying concepts, context, or requirements. Only after analyzing these steps, provide a structured answer.
+
+Example:
+User: How can I start a small business with limited capital?
+Step-Back Reasoning:
+1. Identify your skills and interests.
+2. Research business ideas that require minimal investment.
+3. Understand local regulations and resources.
+4. Plan initial budget and revenue model.
+Answer: Based on these steps, you could start a service-based business like freelancing, tutoring, or online reselling.
