@@ -32,7 +32,7 @@ def speechToText():
 
         print("Your Voice is Processing...")
         stt = rec.recognize_google(audio)
-        print("Your Said: ", stt)
+        print("You Said: ", stt)
 
         resp = chat_bot(stt)
         # print(resp)
