@@ -92,7 +92,7 @@ narwhals==2.0.1
 neo4j==5.28.2
 neo4j-graphrag==1.10.0
 nltk==3.9.1
-numpy==1.26.4
+numpy==2.3.3
 openai==1.100.2
 opentelemetry-api==1.37.0
 opentelemetry-exporter-otlp-proto-common==1.37.0
@@ -115,6 +115,7 @@ presidio_anonymizer==2.2.360
 propcache==0.3.2
 protobuf==5.29.5
 pyarrow==21.0.0
+PyAudio==0.2.14
 pycparser==2.23
 pydantic==2.11.7
 pydantic-settings==2.10.1
@@ -149,9 +150,11 @@ six==1.17.0
 smart_open==7.3.1
 smmap==5.0.2
 sniffio==1.3.1
+sounddevice==0.5.2
 spacy==3.8.7
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
+SpeechRecognition==3.14.3
 SQLAlchemy==2.0.43
 srsly==2.5.1
 streamlit==1.48.0
